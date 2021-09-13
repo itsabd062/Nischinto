@@ -128,7 +128,7 @@ a:hover {
 }
 
 .plm{
-  padding-left: 85px;
+  padding-left: 75px;
 }
 
 @keyframes animate {
@@ -316,6 +316,23 @@ hr {
   text-align: center;
   padding-bottom: 230px;
   margin-bottom: 1px;
+}
+@media screen and (max-width: 991px) {
+  .blogtext{
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 889px) {
+  .blogtext{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media screen and (max-width: 417px) {
+  .blogtext{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 .st-google-map iframe {
   width: 100%;
