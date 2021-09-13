@@ -128,7 +128,7 @@ a:hover {
 }
 
 .plm{
-  padding-left: 75px;
+  padding-left: 85px;
 }
 
 @keyframes animate {
@@ -320,6 +320,9 @@ hr {
 @media screen and (max-width: 991px) {
   .blogtext{
     font-size: 30px;
+  }
+  .plm{
+    padding-left: 75px;
   }
 }
 @media screen and (max-width: 889px) {
