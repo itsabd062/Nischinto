@@ -302,7 +302,6 @@ hr {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 50;
 }
 .blogtext{
   color: rgb(255, 255, 255);
@@ -316,6 +315,7 @@ hr {
   color: rgb(255, 255, 255);
   text-align: center;
   padding-bottom: 230px;
+  margin-bottom: 1px;
 }
 .st-google-map iframe {
   width: 100%;
