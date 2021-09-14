@@ -194,8 +194,6 @@ a:hover {
   .plb{
     margin-left: 18px;
   }
-  .cen-ter{
-  }
 #span-ani::before {
     content: "Crutches";
     animation: animate infinite 8s;
@@ -1230,8 +1228,6 @@ text-align: center;}
     font-size: 17px;
     font-weight: 500;
   }
-  .pa{    
-    }
   @media(max-width:991px){
     .cen-ter{
       display: block;
