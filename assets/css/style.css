@@ -81,7 +81,7 @@ a {
     padding-bottom: 50px;
   }
   .try{
-    padding-top: 380px;
+    padding-top: 400px;
   }
   .tryblog{
     padding-top: 380px;
@@ -1191,6 +1191,13 @@ text-align: center;}
     .try{
       padding-top: 0px;
     }
+    .st-footer-widget-title {
+      font-size: 20px;
+      position: relative;
+      margin-top: 30px;
+      color: rgb(3, 82, 156);
+      font-weight: 600;
+    padding: 0px; }
   }
   .dbg{
     background-color: rgb(253, 253, 253);
@@ -1223,10 +1230,33 @@ text-align: center;}
     font-size: 17px;
     font-weight: 500;
   }
+  .pa{    
+    }
   @media(max-width:991px){
     .cen-ter{
       display: block;
       margin-left: auto;
       margin-right: auto;
   }
+  .pa{
+    padding-top: 50px;
   }
+  .c-size{
+    font-size: 49px;
+  }
+  }
+  .nav-link:active{
+    background-color: blue;
+  }
+  .nav-tabs .nav-link.active{
+    color: white!important;
+    background-color:  rgb(3, 82, 156)!important;
+  }
+  .st-price-list li {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dashed #b5b5b5;
+    padding: 10px 0; }
+    
