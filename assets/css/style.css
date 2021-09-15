@@ -1102,7 +1102,7 @@ text-align: center;}
   .st-form-field.st-style1 select {
     display: block;
     height: 42px;
-    border: 1px solid #ffffff;
+    border: 1px solid #eaeaea;
     border-radius: 7px;
     width: 100%;
     padding: 10px 15px;
@@ -1116,10 +1116,13 @@ text-align: center;}
     position: absolute;
     bottom: 8px;
     right: 15px;
-    color: #ffffff; }
+    color: #b5b5b5; }
 .st-main-footer {
   padding-top: 100px;
   padding-bottom: 10px; }
+  select{
+    background: #fff;
+  }
 .st-social-btn.st-style1 {
   display: flex;
   flex-wrap: wrap; }
