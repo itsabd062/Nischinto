@@ -85,11 +85,10 @@ a {
     padding-top: 380px;
   }
   .st-footer-logo{
-    width: 100px;
-    padding-bottom: 20px;
+    width: 80%;
   }
   .sticky{
-    background-color: #0a9a73!important;
+    background-color: #00c2cb!important;
     position: fixed;
     top: 0;
     width: 100%;
@@ -142,11 +141,9 @@ a {
 .nav-btn .btn{
   background-color: var(--black);
   border-color: var(--black);
-  color: var(--red);
 }
 .nav-btn .btn:hover{
   background-color: transparent;
-  border-color: #ff787c;
   color: var(--black);
 }
 .nav-btn{
@@ -172,17 +169,18 @@ a:hover {
   text-decoration: none;
   color: inherit; }
   .list{
+    padding: 7.5px 15px;
     cursor: pointer;
   }
   .padding-contact{
     padding-top: 100px;
   }
   .btn-color{
-    background-color: #10dba5;
+    background-color: #00c2cb;
     color: white;
   }
   section ul li.active{
-    background-color: #10dba5;
+    background-color: #00c2cb;
     color: white;
     padding-left: 10px;
     padding-right: 10px;
@@ -255,6 +253,13 @@ a:hover {
   list-style: none;
   margin: 0;
   padding: 0; }
+  .st-mp1 {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #dee2e6;
+    color: black;
+  }
 .st-zoom {
   position: relative;
   overflow: hidden; }
@@ -420,7 +425,7 @@ hr {
   right: 20px;
   width: 50px;
   height: 120px;
-  background: #0a9a73;
+  background: #00c2cb;
   border-radius: 0 0 40px 40px;
   display: flex;
   align-items: flex-end;
@@ -428,7 +433,7 @@ hr {
   opacity: 0;
   transition: all 0.3s ease; }
   .st-link-hover-wrap .st-link-hover i {
-    color: #0a9a73;
+    color: #00c2cb;
     background-color: #fff;
     height: 40px;
     width: 40px;
@@ -534,7 +539,7 @@ hr {
     .st-top-header-list li i {
       margin-right: 10px; }
     .st-top-header-list li a:hover {
-      color: #0a9a73; }
+      color: #00c2cb; }
     .st-top-header-list li span {
       color: #b5b5b5;
       font-weight: 500; }
@@ -542,11 +547,11 @@ hr {
 .st-top-header-btn {
   font-size: 15px;
   font-weight: 700;
-  color: #0a9a73; }
+  color: #00c2cb; }
   .st-top-header-btn:hover {
     color: #111; }
   .st-top-header-btn.st-type1 {
-    background-color: #0a9a73;
+    background-color: #00c2cb;
     color: #fff;
     padding: 11px 25px; }
 .st-site-header.st-style1 {
@@ -685,7 +690,7 @@ hr {
   box-shadow: 0px 5px 10px 0px rgba(68, 68, 68, 0.1); }
 
 .st-btn.st-style1.st-color1 {
-  background-color: #10dba5;
+  background-color: #00c2cb;
   color: #fff; }
 
 .st-btn.st-style1.st-color2 {
@@ -701,7 +706,7 @@ hr {
   color: #fff; }
 
 .st-btn.st-style1.st-color5 {
-  background: linear-gradient(45deg, #1446ea 0%, #03dcec 88%, #03dcec 100%);
+  background: linear-gradient(45deg, #00c2cb 0%, #00c2cb 88%, #00c2cb 100%);
   color: #fff; }
 
 @media screen and (max-width: 991px) {
@@ -808,7 +813,7 @@ hr {
   margin-bottom: 15px; }
   .st-seperator .st-seperator-left,
   .st-seperator .st-seperator-right {
-    background-color: #0a9a73;
+    background-color: #00c2cb;
     height: 2px;
     width: 42px;
     flex: none; }
@@ -860,7 +865,7 @@ hr {
     margin-bottom: 2px;
     font-size: 20px;
     line-height: 1.4em;
-    color: #0a9a73; }
+    color: #00c2cb; }
   .st-text-block-avatar .st-avatar-img {
     flex: none;
     height: 70px;
@@ -871,14 +876,14 @@ hr {
 
 .st-shedule {
   background-color: rgb(238, 238, 238);
-  border: 1px solid #0a9a73;
+  border: 1px solid #00c2cb;
   padding: 30px 20px;
 border-radius: 10px; }
 
 .st-shedule-title {
   font-size: 24px;
   font-weight: 600;
-  color: #0a9a73;
+  color: #00c2cb;
   margin-bottom: 8px; 
 text-align: center;}
 
@@ -894,7 +899,7 @@ text-align: center;}
   .st-call.st-style1 .st-call-number {
     font-size: 18px;
     font-weight: 700;
-    color: #0a9a73; }
+    color: #00c2cb; }
 
 .st-imagebox.st-style2 .st-imagebox-text {
   margin-bottom: 33px; }
@@ -902,7 +907,7 @@ text-align: center;}
   font-size: 32px;
   margin-bottom: 6px; }
   .st-imagebox.st-style2 .st-imagebox-title span {
-    color: #0a9a73; }
+    color: #00c2cb; }
 .st-imagebox.st-style2 .st-imagebox-subtitle {
   font-size: 15px;
   line-height: 1.6em;
@@ -960,7 +965,7 @@ text-align: center;}
   .st-member.st-style1 .st-doctor-link {
     display: block;
     position: absolute;
-    background-color: #0a9a73;
+    background-color: #00c2cb;
     color: #fff;
     display: flex;
     justify-content: center;
@@ -991,7 +996,7 @@ text-align: center;}
     visibility: visible;
     transition: all 0.4s ease; }
     .st-member.st-style1 .st-member-name a:hover {
-      color: #0a9a73; }
+      color: #00c2cb; }
   .st-member.st-style1 .st-member-designation {
     position: relative;
     opacity: 1;
@@ -1120,12 +1125,12 @@ text-align: center;}
   flex-wrap: wrap; }
   .st-social-btn.st-style1 li {
     font-size: 22px;
-    color: #0a9a73;
+    color: #00c2cb;
     margin-right: 15px; }
     .st-social-btn.st-style1 li a {
       display: flex; }
       .st-social-btn.st-style1 li a:hover {
-        color: #0a9a73;
+        color: #00c2cb;
         transform: scale(1.1); }
 
 .st-footer-widget {
@@ -1138,7 +1143,7 @@ text-align: center;}
   margin: 0;
   margin-bottom: 20px;
   margin-top: -4px;
-  color: #0a9a73;
+  color: #00c2cb;
   font-weight: 600; }
   .st-footer-widget-nav li {
     position: relative;
@@ -1148,7 +1153,7 @@ text-align: center;}
     padding-left: 15px;
     position: relative; }
     .st-footer-widget-nav a:hover {
-      color: #0a9a73;
+      color: #00c2cb;
       margin-left: 4px; }
   .st-footer-widget-nav i {
     position: absolute;
@@ -1188,7 +1193,7 @@ text-align: center;}
       font-size: 20px;
       position: relative;
       margin-top: 30px;
-      color: #0a9a73;
+      color: #00c2cb;
       font-weight: 600;
     padding: 0px; }
   }
@@ -1205,10 +1210,10 @@ text-align: center;}
     width: 60px;
   }
   .logo-size{
-    width: 50px !important;
+    width: 80px !important;
   }
   .up-btn{
-    color: #10dba5;
+    color: #00c2cb;
   }
   .c-size{
     font-size: 60px;
@@ -1244,12 +1249,14 @@ text-align: center;}
     }
     }
   .nav-link:active{
-    background-color: blue;
+    background-color:transparent;
   }
-
+.nav-link:hover{
+  background-color: #03bac4;
+}
   .nav-tabs .nav-link.active {
     color: black!important;
-    background-color:#10dba5!important;
+    background-color:#00c2cb!important;
   }
   .st-price-list li {
     margin-left: 20px;
@@ -1258,5 +1265,3 @@ text-align: center;}
     justify-content: space-between;
     border-bottom: 1px dashed #b5b5b5;
     padding: 10px 0; }
-    
-
