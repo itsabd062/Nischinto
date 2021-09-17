@@ -1209,9 +1209,6 @@ text-align: center;}
   .wid{
     width: 60px;
   }
-  .logo-size{
-    width: 80px !important;
-  }
   .up-btn{
     color: #00c2cb;
   }
@@ -1223,7 +1220,7 @@ text-align: center;}
     font-weight: 500;
   }
   .n-btn-c{
-    background-color: #018864;
+    background-color: #03abb4;
   }
   @media(max-width:991px){
     .cen-ter{
