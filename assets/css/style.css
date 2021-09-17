@@ -155,7 +155,10 @@ a {
   padding: 8px 14px;
 }
 .pl{
-  text-align: right;
+  padding-left: 50px;
+}
+.bg-wh{
+  background-color: white;
 }
 .sliderimg{
   width: 600px;
