@@ -63,9 +63,6 @@ img {
   border: 0;
   max-width: 100%;
   height: auto; }
-  .logo{
-    width: 50px;
-  }
 a {
   color: inherit;
   -webkit-transition: all 0.3s ease;
@@ -101,7 +98,7 @@ a {
     -o-transition: all .5s ease;
   }
   .navbar-brand{
-  width: 110px;
+  width: 220px;
 }
 .navbar-brand img{
   width: 100%;
