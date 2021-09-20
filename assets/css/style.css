@@ -1259,3 +1259,8 @@ text-align: center;}
     justify-content: space-between;
     border-bottom: 1px dashed #b5b5b5;
     padding: 10px 0; }
+    .wc{
+      padding-top: 20px;
+      padding-left: 20px;
+      width: 90%;
+    }
